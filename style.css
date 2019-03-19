@@ -2,7 +2,7 @@
 html, body {
     padding: 0px;
     margin: 0px;
-    
+
     background: #fefefe;
     
     font-family: 'Playfair Display', serif;
@@ -35,6 +35,9 @@ header nav a {
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 0.05rem;
+}
+header nav a.selected {
+    font-weight: bold;
 }
 
 main {
