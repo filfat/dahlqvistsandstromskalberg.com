@@ -30,7 +30,7 @@ header nav {
 }
 header nav a {
     margin: 0px 1rem;
-    
+
     color: #222;
 
     display: block;
@@ -52,4 +52,16 @@ main .logo {
     display: block;
     width: 90vw;
     max-width: 480px;
+}
+
+article {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: calc(100vw - 4rem);
+    max-width: 1024px;
+    margin: 0px auto;
+    padding: 2rem;
+
+    background: #dfdfdf;
 }

@@ -1,0 +1,34 @@
+article .block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    width: 50%;
+    height: 200px;
+    margin: 0.5rem;
+
+    background: red;
+    transition: 250ms all;
+
+    text-decoration: none;
+}
+article .block:hover {
+    transform: scale(1.025);
+}
+article .block .title {
+    align-self: flex-end;
+    display: block;
+    padding: 1rem;
+
+    color: #fff;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+}
+
+@media (max-width: 768px) {
+    article {
+        flex-wrap: wrap;
+    }
+}
