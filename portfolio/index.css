@@ -7,7 +7,7 @@ article .block {
     height: 200px;
     margin: 0.5rem;
 
-    background: red;
+    background: #000;
     transition: 250ms all;
 
     text-decoration: none;

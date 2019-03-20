@@ -1,0 +1,37 @@
+article {
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+article .item {
+    display: block;
+    width: 100%;
+    padding: 1rem 0px;
+
+    text-align: center;
+}
+
+article .item .meta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+article .item .meta * {
+    margin: 0px 0.25rem;
+}
+article .item a {
+    color: #333;
+    transition: 250ms all;
+
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+}
+article .item a::after {
+    content: '.';
+}
+article .item a:hover {
+    color: #777;
+}
