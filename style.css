@@ -6,6 +6,7 @@ html, body {
     background: #fefefe;
     
     font-family: 'Playfair Display', serif;
+    font-size: 16px;
 }
 
 header {
@@ -66,4 +67,10 @@ article {
     padding: 2rem;
 
     background: #dfdfdf;
+}
+
+article .container {
+    max-width: 42rem;
+    padding: 0px 2rem;
+    text-align: justify;
 }
