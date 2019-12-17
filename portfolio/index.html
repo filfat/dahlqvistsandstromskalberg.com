@@ -1,42 +1,54 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Portfolio - Sandstrom Holdings</title>
-        <link rel="stylesheet" href="/style.css" />
-        <link rel="stylesheet" href="/portfolio/index.css" />
-    </head>
-    <body>
-        <header>
-            <nav>
-                <a href="/">Home</a>
-                <a href="/portfolio" class="selected">Portfolio</a>
-                <a href="/news">News</a>
-            </nav>
-        </header>
-        <main>
-            <img src="/logo.svg" class="logo"/>
-        </main>
 
-        <article>
-            <a target="_blank" href="https://veteranare.com" class="block" style="background-color: #ff495c;">
-                <div class="title">Veteranare</div>
-            </a>
-            <a target="_blank" href="https://www.iveeni.com/" class="block" style="background-color: #333;">
-                <div class="title">Iveeni</div>
-            </a>
-            <a target="_blank" href="https://www.playstr.link/" class="block" style="background-color: #c83527;">
-                <div class="title">Playstr</div>
-            </a>
-        </article>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136623388-1"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio - Sandstrom Holdings</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/portfolio/index.css" />
 
-            gtag('config', 'UA-136623388-1');
-        </script>
-    </body>
+    !-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-56J9ZDZ');</script>
+    <!-- End Google Tag Manager -->
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-56J9ZDZ" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
+    <header>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/portfolio" class="selected">Portfolio</a>
+            <a href="/news">News</a>
+        </nav>
+    </header>
+    <main>
+        <div class="logo">Andersson Sandstrom<br />Holdings</div>
+    </main>
+
+    <article>
+        <a target="_blank" href="https://swedishcandybox.us" class="block" style="background-color: #004B87;">
+            <div class="title">Swedish Candybox</div>
+        </a>
+
+        <a target="_blank" href="https://veteranare.com" class="block" style="background-color: #ff495c;">
+            <div class="title">Veteranare</div>
+        </a>
+
+        <a target="_blank" href="https://www.playstr.link/" class="block" style="background-color: #c83527;">
+            <div class="title">Playstr</div>
+        </a>
+    </article>
+</body>
+
 </html>
